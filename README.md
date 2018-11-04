@@ -4,7 +4,7 @@
 ### 기술 및 환경
 WebStorm, Node, Express, Axios, GCP Compute Engine, crontab, Google Calendar API, Slack API   
 
-###  자동 재실행 시키기
+###  프로그램이 죽어도 재실행 되게 만들기
 ```
 $ chmod 777 chkproc.sh
 $ crontab -e

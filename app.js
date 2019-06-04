@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.use(morgan());
 
-app.get('/auth', (req, res) => {
+app.get('/', (req, res) => {
     // res.sendStatus(200);
 
     if (req.query.code) {
